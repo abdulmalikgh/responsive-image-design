@@ -1,0 +1,40 @@
+/*
+
+Your styles go here!
+
+Hint! You'll probably want to start by styling:
+  * <body>
+  * <article>
+  * <h1>
+  * <img>
+
+I've left some boilerplate below for you.
+
+*/
+
+body {
+width:100%;
+margin:0px;
+padding:0px;
+}
+
+article {
+ max-width:50em;
+ margin-right:auto;
+ margin-left:auto;
+}
+article p{
+  line-height: 1.5rem;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+ text-align:center;
+ line-height:2em;
+ font-size: 2em;
+ color:black;
+}
+
+img {
+ max-width:100%;
+}
