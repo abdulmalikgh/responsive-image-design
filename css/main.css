@@ -11,27 +11,37 @@
 
 
 body{
-    width:100%;
     margin:0;
     padding:0;
 }
 article{
-    width:50rem;
+    max-width:50rem;
     margin:auto;
     padding:auto;
     font-size: 1.5rem;
     line-height: 2em;
 }
+figcaption {
+    color: #bb021e;
+    font-family: 'Roboto condensed', sans-serif;
+    padding: 1em 0;
+    text-align: center;
+  }
+  
+  figure {
+    margin: .2em 0 .2em 0;
+  }
 
 img{
     max-width: 100%;
 
 }
 footer{
-    max-width: 50rem;
+    width: 50rem;
     margin-right:auto;
     margin-left: auto;
     padding:2em;
+    text-align:center;
 }
 
 h1 img{
@@ -39,10 +49,9 @@ h1 img{
     height:60px;
     position: relative;
     top:15px;
-
 }
 header{
-    max-width: 50em;
+    max-width: 50rem;
     margin-right: auto;
     margin-left: auto;
 }
@@ -53,7 +62,6 @@ h1 {
 svg#logo {
     fill: #666;
     height: 6vw;
-    
     width: 6vw;
   }
 header:hover svg#logo {
@@ -61,4 +69,10 @@ header:hover svg#logo {
     -webkit-filter: drop-shadow(3px 3px 3px #ddd);
     filter: drop-shadow(3px 3px 3px #ddd);
   }
-  
+  footer div{
+      padding: 1em;
+      border-bottom: 1px solid black;
+  }
+  footer a, footer div a{
+      text-decoration: none;
+  }
